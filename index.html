@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="nav">
+        <nav class="nav-links">
+          <div class="nav-left">
+            <img
+              src="./images/logo.svg"
+              alt="Sneaker Company Logo"
+              class="logo"
+              width="100"
+            />
+            <ul class="main-menu">
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <img
+              src="./images/icon-cart.svg"
+              alt="Cart Icon"
+              class="cart-icon"
+            />
+            <img
+              src="./images/image-avatar.png"
+              alt="User Avatar"
+              class="user-avatar"
+            />
+          </div>
+        </nav>
+      </header>
+      <div class="hero">
+        <div class="image-content">
+          <div class="hero-image">
+            <img
+              src="./images/image-product-1.jpg"
+              alt="Sneaker Image"
+              class="main-image"
+              width="100%"
+              height="100%"
+            />
+            <div class="image-gallery">
+              <img
+                src="./images/image-product-1-thumbnail.jpg"
+                alt="Sneaker Thumbnail 1"
+                class="thumbnail1"
+                width="100"
+              />
+              <img
+                src="./images/image-product-2-thumbnail.jpg"
+                alt="Sneaker Thumbnail 2"
+                class="thumbnail"
+                width="100"
+              />
+              <img
+                src="./images/image-product-3-thumbnail.jpg"
+                alt="Sneaker Thumbnail 3"
+                class="thumbnail"
+                width="100"
+              />
+              <img
+                src="./images/image-product-4-thumbnail.jpg"
+                alt="Sneaker Thumbnail 4"
+                class="thumbnail"
+                width="100"
+              />
+            </div>
+          </div>
+
+          <div class="hero-text">
+            <h3>SNEAKER COMPANY</h3>
+            <h1>Fall Limited Edition <br> Sneakers</h1>
+            <p>
+              These low-profile sneakers are your perfect casual wear <br />
+              companion. Featuring a durable rubber outer sole, they’ll <br />
+              withstand everything the weather can offer.
+            </p>
+            <div class="price">
+              <span>$125.00</span>
+              <span class="discount">50%</span> <br>
+              <span class="original-price">$250.00</span>
+            </div>
+             <div class="plus-minus">
+              <div class="sign">
+                 <button class="minus"><img src="./images/icon-minus.svg" alt="" srcset=""></button>
+              <span class="sign">0</span>
+              <button class="plus"><img src="./images/icon-plus.svg" alt="" srcset=""></button>
+              </div>
+             
+            <button class="add-to-cart"><img src="./images/icon-cart.svg" alt="" srcset="">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
